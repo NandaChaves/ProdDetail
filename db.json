@@ -1,0 +1,19 @@
+{
+    "chocs":[
+        {"id":1,"img":"assets/images/1.png","name":"Ovos recheados", "price": 3.95,"description":"Pacote limitado de Páscoa de 5 ovos recheados, sendo possível optar entre o ovo de chocolate, avelã, chcolate branco, morango e trufado com caramelo.","stock":true},
+        {"id":2,"img":"assets/images/2.png","name":"Cupcakes de festa 800g","price": 39.9,"description":"Pacote de festa de  25 cupcakes de 4 sabores diferentes; morango, blueberry, chocolate e amendoim com glacê.","stock":true},
+        {"id":3,"img":"assets/images/3.png","name":"Cookies arco íris", "price": 6.00,"description":"Pacote de 9 biscoites de diferentes sabores:M&M’s e chocolate,M&M’s original, M&M’s com Hershey, red velver com chocolate branco,aveia, chocolate branco e macadâmia, chocolate branco com granulado, limão com granulado e tradicional com gotas de chocolate.","stock":true},
+        {"id":4,"img":"assets/images/4.png","name":"Cheesecake de morango", "price": 1.95,"description":"Torta doce de queijo cremoso (cream cheese) e calda de frutas vermelhas disponíveis para encomenda ou reserva.","stock":false},
+        {"id":5,"img":"assets/images/5.png","name":"Bolo de limão", "price": 20.75,"description":"Delicioso bolo de limão decorado com glacê e recheio de chocolate branco","stock":true},
+        {"id":6,"img":"assets/images/6.png","name":"Bubbles waffle morango e kiwi", "price": 2.20,"description":"Massa de bubble waffle levando gelado de morango e limão, morango, kiwi e tubos de chocolate.","stock":false},
+        {"id":7,"img":"assets/images/7.png","name":"Bubbles waffle morango e banana", "price": 3.15,"description":"Massa de bubble waffle levando gelado de baunilha, morango, banana e confeitos.","stock":false},
+        {"id":8,"img":"assets/images/8.png","name":"Bubbles waffle marshmallow", "price": 3.95,"description":"Massa de bubble waffle levando, gomas, tubos, chantilly, confeitos e duas bolas de gelado de baunilha.","stock":false},
+        {"id":9,"img":"assets/images/9.png","name":"Bubbles waffle tutti-frutti", "price": 5.5,"description":"Massa de bubble waffle, nutella, gelado de banana, natas, morango, banana, kiwi e açúcar colorido","stock":false},
+        {"id":10,"img":"assets/images/10.png","name":"Bubbles waffle Kit Kat e morango", "price": 4.35,"description":"Massa de bubble waffle, kit kat, morango,marshmallow e duas bolas de gelado de baunilha.","stock":false},
+        {"id":11,"img":"assets/images/11.png","name":"Bubbles waffle marshmallow", "price": 3.95,"description":"Massa de bubble waffle, cereja, granulados, gelado de banana, calda de morango e duas bolas de gelado de morango","stock":false},
+        {"id":12,"img":"assets/images/12.png","name":"Bubbles waffle morango", "price": 3.20,"description":"Massa de bubble waffle, chantilly, morangos, tubos de chocolate e duas bolas de gelado de baunilha.","stock":false},
+        {"id":13,"img":"assets/images/13.png","name":"Frapuccino cafe e creme", "price": 3.75,"description":"Deliciosa mistura equilibra café Arábica, leite com baixo teor de gordura e rico sabor de chocolate. É uma guloseima saborosa que captura a essência de uma bebida de café moca em uma garrafa prática.","stock":false},
+        {"id":14,"img":"assets/images/14.png","name":"Frapuccino tropical", "price": 2.5,"description":"Combinação de café, creme, cereja, morango, pedaços de abacaxi, cobertura de chocolate, leite e gelo triturado batido com morango.","stock":false},
+        {"id":15,"img":"assets/images/15.png","name":"Frapuccino amendoim", "price": 2.15,"description":"Combinação de café, creme, caramelo, leite e gelo triturado.","stock":true}
+        ]
+}

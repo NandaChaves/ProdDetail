@@ -1,0 +1,18 @@
+
+<h2 class="title">Lista de produtos</h2>
+
+<div class="wrapper">
+    <ul>
+    <li *ngFor="let choc of chocs"> 
+    <div class="single-card">
+        <div class="img-area">
+           <a routerLink="/list/{{choc.id}}"><img class="" src="{{choc.img}}" alt="{{choc.name}}"></a> 
+        </div>
+        <div class="">
+            <h2>{{choc.name}}</h2>
+            <p class="price text-center">{{choc.price}} €</p>
+        </div>
+    </div>
+    </li>
+  </ul>
+</div>

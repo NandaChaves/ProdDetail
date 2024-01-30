@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "server": "json-server --watch db.json",
     "serve:ssr:ProdDetail": "node dist/prod-detail/server/server.mjs"
   },
   "private": true,
@@ -21,7 +22,12 @@
     "@angular/platform-server": "^17.0.0",
     "@angular/router": "^17.0.0",
     "@angular/ssr": "^17.0.8",
+    "@fortawesome/angular-fontawesome": "^0.14.1",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "express": "^4.18.2",
+    "json-server": "^1.0.0-alpha.23",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.2"

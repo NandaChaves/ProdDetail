@@ -1,0 +1,27 @@
+<div class="box">
+    <li *ngIf="choc" class="list">
+    <div class="container flex">
+      <div class="left">
+        <div class="main_image">
+            <img class="" src="{{choc.img}}" alt="{{choc.name}}"> 
+        </div>
+      </div>
+      <div class="right">
+        <h3>{{choc.name}}</h3>
+        <h4>{{choc.price}} <small>€</small></h4>
+        <p>{{choc.description}}</p>
+        <h5>Sub-total: {{choc.price * qtd | number: '.2-2' }} €</h5> 
+        <div class="stock" *ngIf = "choc.stock == false">
+          <h4>Indisponível no momento</h4>
+        </div>
+        <div class="add flex1">
+            <span (click)="less()">-</span>
+            <label>{{qtd}}</label>
+            <span (click)="add()">+</span>
+          </div>
+
+          <button>Add to Bag</button>
+      </div>
+    </div>
+</li>
+</div>

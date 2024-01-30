@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .box li{
+    list-style: none;
+  }
+  
+  .container {
+    max-width: 85%;
+    margin: auto;
+    height: 75vh;
+    margin-top: 5%;
+    background: white;
+    box-shadow: 5px 5px 10px 3px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin: 5%;
+  }
+  
+  .left, .right {
+    width: 70%;
+  }
+
+  .left, .right {
+    width: 70%;
+    padding: 6%;
+    margin-top: .30px;
+  }
+  
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .flex1 {
+    display: flex;
+  }
+  
+  .main_image img{
+    width: 90%;
+    height: 100%;
+  }
+
+  .right {
+    padding: 50px 20px 10px 20px;
+  }
+
+  .stock h4{
+    color: red;
+    font-size: 18px;
+  }
+  
+  h3 {
+    color: var(--chocolat);
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+  }
+  
+  h5,
+  p,
+  small {
+    color: var(--green);
+  }
+  
+  h4,small {
+    color: var(--green);
+  }
+  
+  p {
+    margin: 20px 0 50px 0;
+    line-height: 25px;
+  }
+  
+  h5 {
+    font-size: 25px;
+  }
+  
+  label,
+  .add span,
+  .color span {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 20px 10px 20px 0;
+  }
+
+  .add label,
+  .add span {
+    background: none;
+    border: 1px solid var(--green);
+    color: var(--green);
+    text-align: center;
+    line-height: 25px;
+  }
+  
+  .add label {
+    padding: 10px 30px 0 20px;
+    border-radius: 50px;
+    line-height: 0;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: var(--green);
+    color: white;
+    margin-top: 10%;
+    border-radius: 30px;
+  }
+  
+  @media only screen and (max-width:768px) {
+    .container {
+      max-width: 90%;
+      margin: auto;
+      height: auto;
+    }
+  
+    .left, .right {
+      width: 100%;
+    }
+  
+    .container {
+      flex-direction: column;
+    }
+  }
+  
+  @media only screen and (max-width:511px) {
+    .container {
+      max-width: 100%;
+      height: auto;
+      padding: 10px;
+    }
+  
+    .left, .right {
+      padding: 0;
+    }
+  
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .option {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
