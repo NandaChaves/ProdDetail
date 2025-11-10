@@ -6,7 +6,7 @@ import { Chocolat } from '../Chocolat';
   providedIn: 'root'
 })
 export class ListService {
-  private apiUrl = "http://localhost:3000/chocs";
+  private apiUrl = "https://chocolat-api.onrender.com/chocs";
 
   constructor(private http:HttpClient) {}
 

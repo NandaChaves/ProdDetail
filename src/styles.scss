@@ -113,13 +113,13 @@ margin-bottom: 3px;
 .wrapper ul{
  background-image: url("assets/images/fundo.png");
  display: grid;
- grid-template-columns: repeat(5, 1fr);
- gap: 10px;
+ grid-template-columns: repeat(6, 1fr);
+ gap: 5px;
  background-repeat: no-repeat;
  background-size: cover;
 }
 .wrapper li{
-  max-width: 12em;
+  max-width: 15em;
   background-color: #fff;
   padding: 1em;
   box-shadow: 0pc 5px 15px black;
