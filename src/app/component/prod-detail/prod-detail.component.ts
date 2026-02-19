@@ -11,13 +11,18 @@ export class ProdDetailComponent implements OnInit{
   choc?: Chocolat;
   result!: number;
   qtd: number = 1;
-
+  loading: boolean = true;
   constructor(private listservice:ListService, private route:ActivatedRoute){}
 
-  getChoc(){
-    const id = Number(this.route.snapshot.paramMap.get("id"));
-    this.listservice.getItem(id).subscribe((choc)=>(this.choc = choc));
-  }
+getChoc(){
+  const id = Number(this.route.snapshot.paramMap.get("id"));
+  this.loading = true;
+
+  this.listservice.getItem(id).subscribe((choc) => {
+    this.choc = choc;
+    this.loading = false;
+  });
+}
 
  ngOnInit(): void {
   this.getChoc();
