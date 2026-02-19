@@ -12,18 +12,16 @@ export class ProdDetailComponent implements OnInit{
   result!: number;
   qtd: number = 1;
 
-  constructor(private listservice:ListService, private route:ActivatedRoute){
-    this.getChoc();
-  }
+  constructor(private listservice:ListService, private route:ActivatedRoute){}
 
   getChoc(){
     const id = Number(this.route.snapshot.paramMap.get("id"));
     this.listservice.getItem(id).subscribe((choc)=>(this.choc = choc));
   }
 
-  ngOnInit(): void {
-    
-  }
+ ngOnInit(): void {
+  this.getChoc();
+}
 
   add(){
     return this.qtd = this.qtd +1;  
