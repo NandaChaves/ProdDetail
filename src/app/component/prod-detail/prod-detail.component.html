@@ -1,5 +1,8 @@
 <div class="box">
-    <li *ngIf="choc" class="list">
+  <div *ngIf="loading">
+    Carregando produto...
+  </div>
+    <li *ngIf="!loading && choc" class="list">
     <div class="container flex">
       <div class="left">
         <div class="main_image">
